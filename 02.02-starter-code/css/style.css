@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+  margin: 0px;
+}
+.clear {
+  clear: both;
+}
+#wrapper {
+/*change width to 100% and add max width to 960x;*/
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+}
+
+/*---------- HEADER ----------*/
+
+header {
+  height: 300px;
+ /*change width to 100% so that it's 100% of parent container*/
+  width: 100%;
+  background:#e3e3e3;
+}
+
+
+/*---------- CONTENT AREA ----------*/
+/* use proportional proration to change width to 33.3%*/
+
+
+.col-3{
+
+  width: 33.3%
+  height: 320px;
+  float: left;
+}
+.grey-1{
+  background: #d5d5d5;
+}
+.grey-2{
+  background: #c4c4c4;
+}
+.grey-3{
+  background: #b7b7b7;
+}
+
+/*---------- FOOTER ----------*/
+
+footer {
+
+/* change width to 100% */
+
+  width: 100%;
+  height: 30px;
+  background: #e3e3e3;
+}
